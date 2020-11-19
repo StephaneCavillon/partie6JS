@@ -5,6 +5,6 @@ let div = document.querySelector('div');
 
 // Création de la boucle
 while(secondNumber < 250){
+    div.innerHTML += '<div>' + firstNumber * secondNumber + '</div>';
     secondNumber *= firstNumber;
-    div.innerHTML += '<div>' + secondNumber + '</div>';
 };
